@@ -28,7 +28,13 @@
     "contents": {
         "playbooks": [
             {
+                "name": "06 - IRP - Reporting"
+            },
+            {
                 "name": "08 - SOC Utilities"
+            },
+            {
+                "name": "08 - Utilities"
             }
         ]
     }
