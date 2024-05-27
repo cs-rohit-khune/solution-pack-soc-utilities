@@ -15,7 +15,7 @@
         "fsrHostname"
     ],
     "synchronous": false,
-    "collection": "\/api\/3\/workflow_collections\/503555f4-07bd-4d56-b732-63defb0d3e76",
+    "collection": "\/api\/3\/workflow_collections\/20289298-cdd6-4052-8fa0-11e2603dca00",
     "versions": [],
     "triggerStep": "\/api\/3\/workflow_steps\/d2f55cf4-f0d5-45ba-aeda-5f5f98a997ae",
     "steps": [
