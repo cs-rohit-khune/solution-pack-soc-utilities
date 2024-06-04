@@ -1,7 +1,7 @@
 # Release Information
 
-* **Version**:  1.0.1
-* **Certified**: No
+* **Version**:  1.1.0
+* **Certified**: Yes
 * **Publisher**: Fortinet CSE
 * **Compatible Version**: FortiSOAR v7.4.0 and above
 
