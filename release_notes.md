@@ -11,6 +11,7 @@
 - Migrated below playbooks from **SOAR Framework** solution pack
 
     - 06 - IRP - Reporting > Export Selected Records
+    - 06 - IRP - Reporting > Import Data
     - 08 - Utilities > Activate Inactive Users - Update User Status
     - 08 - Utilities > Activate Inactive Users
     - 08 - Utilities > Convert FortiSOAR User to SAML - Collect User Email IDs
