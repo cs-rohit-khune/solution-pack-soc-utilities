@@ -2,17 +2,19 @@
 |----------------------|
 
 # Usage
-First, refer to the installation and [setup guide](setup.md) to get started. Use the example(s) found below to decide what provisioning options are avaialble out of the box.
+First, refer to the installation and [setup guide](setup.md) to get started. Use the example(s) found below to decide what provisioning options are available out of the box.
 
-## Utility Playbook &mdash; Clone FortiSOAR Module
+## Cloning a FortiSOAR module
+
 This playbook gives you the ability to clone a FortiSOAR module. Currently there is no UI function to clone a module so this playbook was created to solve that need.
 
-## New Module Creation:
+### Creating a new module
 
 1. Navigate to **Playbooks** -> **08 - SOC Utilities** collection
    ![Collection](./res/Collection.png)
 
 2. Click the  **Clone FortiSOAR Module** playbook to open it
+
 3. Click the play button at the top right
 
    ![Play Button](./res/play_button.png)
@@ -41,7 +43,7 @@ This playbook gives you the ability to clone a FortiSOAR module. Currently there
 
    ![Publish Message](./res/publish_message.png)
 
-## Module Permission
+### Assigning permissions to the module
 
 1. Navigate to System Settings by clicking the Gear icon at the top right
 
@@ -57,16 +59,25 @@ This playbook gives you the ability to clone a FortiSOAR module. Currently there
 
    ![Module Permissions Message](./res/module_permissions.png)
 
-5. Click **Save** at the bottom left
+5. Click **Save** at the bottom left.
 
-> **Note:** Repeat steps 4 and 5 for adding permissions on other roles if needed
+<table>
+    <tr>
+        <th>NOTE</th>
+        <td>Repeat steps 4 and 5 for adding permissions on other roles if needed</td>
+    </tr>
+</table>
 
-> **Caution:** If you need playbooks to create records in this module, make sure the playbook appliance has the CRUD
-> permissions necessary to access the module
+<table>
+    <tr>
+        <th>IMPORTANT</th>
+        <td>If you need playbooks to create records in this module, make sure the playbook appliance has the CRUD permissions necessary to access the module.</td>
+    </tr>
+</table>
 
 6. Navigate to the Navigation section of the settings
 
-   ![Navigiation](./res/navigation.png)
+   ![Navigation](./res/navigation.png)
 
 7. Find the new module in the Modules box and check the box.
 
@@ -88,7 +99,8 @@ This playbook gives you the ability to clone a FortiSOAR module. Currently there
 
    ![Alt text](./res/navigation_icon.png)
 
-## Utility Playbook &mdash; Terminates Pending Manual Inputs
+## Terminating pending manual inputs
+
 This playbook gives you the ability to terminate all manual inputs that are pending for an user action/input created before the specified timestamp.
 
 1. Navigate to Alerts module then click to the **Execute** Button
@@ -105,7 +117,7 @@ This playbook gives you the ability to terminate all manual inputs that are pend
 
    ![Result](./res/output_terminate_manual_input_playbooks.png)
 
-## Utility Playbook &mdash; Terminate Awaiting Data Ingestion playbooks
+## Terminating awaiting data ingestion playbooks
 
 This playbook gives you the ability to terminate a list of data ingestion playbooks which are in awaiting state till the specified last x minutes.
 
@@ -123,7 +135,7 @@ This playbook gives you the ability to terminate a list of data ingestion playbo
 
    ![Result](./res/output_terminate_dl_playbooks.png)
 
-## Utility Playbook &mdash; Extract Related Alert of Pending Manual Input in CSV
+## Extracting pending manual input related alerts
 
 This playbook gives you the ability to retrieves all pending manual input records for an user action/input and generates CSV.
 
@@ -137,6 +149,9 @@ This playbook gives you the ability to retrieves all pending manual input record
    generates CSV and stores it as an attachment in FortiSOAR attachment module for related and missing alerts.
    
    ![Play Button](./res/csv_attachment.png)
+
+
+# Next Steps
 
 | [Installation](./setup.md#installation) | [Configuration](./setup.md#configuration) | [Contents](./contents.md) |
 |-----------------------------------------|-------------------------------------------|---------------------------|
