@@ -29,10 +29,15 @@ The **SOC Utilities** solution pack contains the following resources:
 |----------------|
 
 
-| #  | Playbook Name                                                                      | Description                                                                                                                                                       |
-|----|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1  | Activate Inactive Users                                                            | Find the Inactive users and activate them                                                                                                                         |
-| 2  | Activate inactive users - Update user status                                       | This is a subroutine playbook to update the user status as active                                                                                                 |
+| # | Playbook Name                                           | Description                                                                                            |
+|---|---------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| 1 | Activate Inactive Users                                 | Find the Inactive users and activate them                                                              |
+| 2 | Activate inactive users - Update user status            | This is a subroutine playbook to update the user status as active                                      |
+| 3 | Convert FortiSOAR User to SAML - Collect User Email IDs | Updates user type of existing FortiSOAR user to SAML.                                                  |
+| 4 | Convert FortiSOAR User to SAML - Update User Type       | Collects comma-separated Email-IDs of the existing FortiSOAR users that to be converted to SAML Users. |
+
+
+# Next Steps
 
 | [Installation](./setup.md#installation) | [Configuration](./setup.md#configuration) | [Usage](./usage.md) |
-|----------------------------------------------|------------------------------------------------|--------------------------|
+|-----------------------------------------|-------------------------------------------|---------------------|

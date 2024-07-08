@@ -1,6 +1,3 @@
-| [Home](./README.md) |
-|----------------------|
-
 # What's New
 
 | Compatible Version | FortiSOAR v7.4.0 and later |
@@ -8,7 +5,8 @@
 
 
 ## Playbook Enhancements
-- Migrated below playbooks from **SOAR Framework** solution pack
+
+- The following playbooks have been moved from **SOAR Framework** solution pack to the **SOC Utilities** solution pack:
 
     - 06 - IRP - Reporting > Export Selected Records
     - 06 - IRP - Reporting > Import Data
